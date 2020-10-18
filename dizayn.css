@@ -1,0 +1,10 @@
+#ilksatir{
+    background-color: gold;
+    text-align: center;
+    font-weight: bold;
+}
+tr[value]{
+    background-color: cadetblue;
+    color: azure;
+}
+tr>td[value="bas"]{background-color: blue;}

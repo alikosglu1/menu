@@ -1,0 +1,55 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h4{
+    font-family: 'Trebuchet MS', 'Lucida';
+    color: rgb(52, 114, 230);
+    
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header, footer, article, aside, nav, section {display: block;}
+body {text-align: center;}
+#ana_kisim {
+    width: 1000px;
+    margin: 15px auto;
+    border: 2px solid black;
+}
+#ana_baslik {
+    border-bottom : 1px dashed red;
+    background-color  : rgb(74, 43, 114);
+    color: rgb(228, 235, 142);  
+    padding: 15px;
+}
+#ana_menu {
+    background-color : rgb(77, 138, 123);
+    padding: 5px;
+}
+#ana_menu li {
+    display: inline-block;
+    list-style: none;
+    color: white;
+    padding-left: 10px;
+    font-family: Verdana, Geneva, Tahoma;
+}
+#ana_makale {
+    width: 700px;
+    margin: 25px;
+    float: left;
+}
+#banner_kismi {
+    float: left;
+  
+}
+#banner_kismi p {
+    font: bold 20px Arial;
+    
+}
+#alt-kisim {
+clear: both;
+}

@@ -1,0 +1,54 @@
+h1{
+    font-family: 'Trebuchet MS Italic';
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header, footer, hgroup, article, aside, nav, section {display: block;}
+body {text-align: center;}
+#ana_kisim {
+    width: 1000px;
+    margin: 15px auto;
+    border: 2px solid black;
+}
+#ana_baslik {
+    border-bottom : 1px dashed red;
+    background-color  :rgb(87, 24, 87);
+    color : lightyellow;   
+    padding: 20px;
+}
+#ana_menu {
+    background-color : rgb(77, 138, 123);
+    padding: 3px;
+}
+#ana_menu li {
+    display: inline-block;
+    list-style: none;
+    font : bold 20px Calibri;
+    color: white;
+    padding-left: 50px;
+    
+}
+#ana_makale {
+    width: 700px;
+    margin: 25px;
+    float: left;
+}
+#banner_kismi {
+    float: left;
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    background-color: coral;
+}
+#alt_kisim{
+    clear:both;
+    padding: 10px;
+    border-top: 1px dashed crimson;
+}
+#ana_makale footer{
+    text-align: right;
+}
